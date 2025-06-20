@@ -66,17 +66,6 @@ cd Multi-User-Contact-App
 3. **Build & Run**
    - Let Gradle sync, then click **Run**.
 
-## Creating the GitHub Repository
-
-If you haven’t already created the remote repo, you can use GitHub CLI:
-
-# Authenticate once
-gh auth login
-
-# Create repo, push current code, set as origin
-gh repo create Multi-User-Contact-App --public --source=. --remote=origin --push
-
-
 Replace `<YOUR_USERNAME>` with your GitHub username when cloning.
 
 ## Dependencies
